@@ -1,0 +1,19 @@
+{
+    "name": "webpe/core",
+    "description": "",
+    "type": "library",
+    "keywords": [
+        "webpe"
+    ],
+    "homepage": "http://www.webpe.cn/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "jayter",
+            "email": "jayter2@qq.com"
+        }
+    ],
+    "require": {
+        "webpe/installer": "dev-master"
+    }
+}
