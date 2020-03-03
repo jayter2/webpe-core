@@ -9,7 +9,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace webpe\controller;
+namespace webpe\library;
 
 use think\App;
 use think\Container;

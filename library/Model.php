@@ -5,7 +5,7 @@
 // Author: jayter <jayter2@qq.com>
 // ----------------------------------------------------------------------
 
-namespace webpe\model;
+namespace webpe\library;
 
 
 class Model

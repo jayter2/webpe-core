@@ -5,7 +5,7 @@
 // Author: jayter <jayter2@qq.com>
 // ----------------------------------------------------------------------
 
-namespace webpe\controller;
+namespace webpe\library;
 
 use think\App;
 use think\Container;
