@@ -8,7 +8,11 @@
 namespace webpe\library;
 
 
-class Model
+/**
+ * Webpe基础模型类（可代替\think\Model）
+ * 精简高效的模型类(适用于API等有高性能需求的场景)
+ */
+class SimpleModel
 {
-    
+ 
 }
