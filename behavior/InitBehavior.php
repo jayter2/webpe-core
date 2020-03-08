@@ -13,11 +13,10 @@ use think\facade\Request;
 class InitBehavior
 {
     public function run(Request $request, $params) {
-        // 行为逻辑
         $host = $request::host();
-        if(strpos($host,'api.')===0){
-            //substr($host,0,strpos($host,'.'))
-            Config::set('url_controller_layer','api');
+        $baseurl = $request::baseUrl();
+        if ($baseurl === '/api' || substr($host, 0, 3) === 'api') {
+            Config::set('url_controller_layer', 'api');
         }
     }
 }

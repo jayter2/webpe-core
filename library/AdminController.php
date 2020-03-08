@@ -16,12 +16,15 @@ use webpe\middleware\AdminInterceptor;
  */
 class AdminController extends  Controller
 {
-    protected $middleware = [AdminInterceptor::class];
+    //protected $middleware = [AdminInterceptor::class];
     /**
      * 应用实例
      * @var \think\App
      */
 //    protected $app;
+    protected function initialize() {
 
+
+    }
 
 }

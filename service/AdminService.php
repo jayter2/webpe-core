@@ -4,17 +4,15 @@
 // Copyright (c) 2016-2020 http://www.webpe.cn All rights reserved.
 // Author: jayter <jayter2@qq.com>
 // ----------------------------------------------------------------------
-// 应用公共文件
+// WebPE系统后台权限服务类
+
+const adminRoleId = 1;  //超级管理组ID
 
 
-use \think\facade\Hook;
+class AdminService
+{
 
-//系统行为
-Hook::add('app_init','\\webpe\\behavior\\InitBehavior');
-
-
-
-
-function webpe_test(){
+    public $uid = 0;
+    public $authOn = true; // 认证开关
 
 }
